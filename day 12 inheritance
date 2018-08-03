@@ -1,0 +1,42 @@
+The locked stub code in your editor calls your Student class constructor and passes it the necessary arguments. It also calls the calculate method (which takes no arguments).
+
+You are not responsible for reading the following input from stdin: 
+The first line contains firstName,lastName , and id, respectively. The second line contains the number of test scores. The third line of space-separated integers describes scores.
+class Student extends Person{
+	private int[] testScores;
+    Student(String firstName,String lastName,int identification,int[] testScores)
+    {
+        super(firstName,lastName,identification);
+       this.testScores = testScores;
+    }
+    char calculate()
+    {int sum=0,avg;
+        for(int i=0;i<testScores.length;i++)
+        {
+            sum=sum+testScores[i];
+            
+        }
+     avg=sum/testScores.length+1;
+     if((avg>89)&& (avg<101))
+        // System.out.println("Grade: "+"O");
+         return'O';
+     else if((avg>79)&&(avg<90))
+                //  System.out.println("Grade: "+"E");
+         return 'E';
+     else if ((avg>69)&&(avg<80))
+                     // System.out.println("Grade: "+"A");
+         return 'A';
+     else if ((avg>54)&&(avg<70))
+                //  System.out.println("Grade: "+"P");
+         return 'P';
+     else if((avg>39)&&(avg<55))
+                 // System.out.println("Grade: "+"D");
+         return 'D';
+     else
+                //  System.out.println("Grade: "+"T");
+return 'T';
+
+
+
+
+    }
