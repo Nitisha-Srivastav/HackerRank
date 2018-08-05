@@ -1,0 +1,8 @@
+Input Format
+
+You are not responsible for reading any input from stdin. The Solution class creates a Book object and calls the MyBook class constructor (passing it the necessary arguments). It then calls the display method on the Book object.
+
+Output Format
+
+The void Display() method should print and label the respectivetitle author  ,price , and  of the MyBook object's instance (with each value on its own line) like so:
+Solution-
