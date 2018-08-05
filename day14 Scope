@@ -1,0 +1,5 @@
+INPUT FORMAT
+You are not responsible for reading any input from stdin. The locked Solution class in your editor reads in  2 lines of input; the first line contains N , and the second line describes the elements  array.
+OUTPUT FORMAT
+You are not responsible for printing any output; the Solution class will print the value of the  instance variable.
+SOLUTION-
