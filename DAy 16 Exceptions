@@ -1,0 +1,9 @@
+Read a string, S, and print its integer value; if S cannot be converted to an integer, print Bad String.
+Input Format
+
+A single string, S.
+Output Format
+
+Print the parsed integer value of S, or Bad String if S  cannot be converted to an integer.
+Solution-
+
