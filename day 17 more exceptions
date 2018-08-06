@@ -1,0 +1,13 @@
+Input Format
+
+Input from stdin is handled for you by the locked stub code in your editor. 
+The first line contains an integer,T , the number of test cases. 
+Each of the T  subsequent lines describes a test case in 2 space-separated integers denoting n and p, respectively.
+
+Constraints
+
+No Test Case will result in overflow for correctly written code.
+Output Format
+
+Output to stdout is handled for you by the locked stub code in your editor.
+There are T lines of output, where each line contains the result of n^p as calculated by your Calculator class' power method.
