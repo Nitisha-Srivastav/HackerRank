@@ -23,7 +23,7 @@ public class Solution {
                 System.out.println("Not prime");
             else
             {
-                for(int j=2;j<a/2;j++)
+                for(int j=2;j<=Math.sqrt(a);j++)
                 {
                     if(a%j==0)
                         count++;
