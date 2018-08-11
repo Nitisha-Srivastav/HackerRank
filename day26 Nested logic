@@ -1,0 +1,37 @@
+Input Format
+
+The first line contains 3 space-separated integers denoting the respective day ,month and year  on which the book was actually returned. 
+The second line contains 3 space-separated integers denoting the respective day ,month , and year  on which the book was expected to be returned (due date).
+
+Output Format
+
+Print a single integer denoting the library fine for the book received as input.
+Solution-
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int da=s.nextInt();
+        int ma=s.nextInt();
+        int ya=s.nextInt();
+        
+        int de=s.nextInt();
+        int me=s.nextInt();
+        int ye=s.nextInt();
+        int fine=0;
+        
+        if(ya>ye)
+         fine=10000;
+            else if(ya==ye)
+             {
+                if(ma>me)
+                 fine=500*(ma-me);
+                    else if(ma==me && da>de)
+                     fine=15*(da-de);
+                    }
+        System.out.println(fine);
+    }
+}
